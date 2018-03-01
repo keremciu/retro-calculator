@@ -1,5 +1,6 @@
 {
   "name": "calculator",
+  "homepage": "https://keremciu.github.io/retro-calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
