@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  color: #303030;
+  text-align: center;
+}
+
+.App-header {
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-weight: 100;
+}
+
+.App-intro {
+  margin: 0 auto;
+  width: 320px;
+  text-align: left;
+}
+
+.Footer-text {
+  color: #606060;
+  font-size: 80%;
+  margin-top: 30px;
+}

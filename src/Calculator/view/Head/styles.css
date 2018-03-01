@@ -1,0 +1,40 @@
+.Head {
+  padding: 0px 24px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Head img {
+  width: 80px;
+  margin-top: 14px;
+  float: left;
+}
+
+.SolarPower {
+  float: right;
+  width: 140px;
+}
+
+.SolarRow {
+  background: #111;
+  border: 4px ridge #706F71;
+  box-shadow: inset 0px 5px 5px #000;
+  border-radius: 6px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.SolarRow .cell {
+  float: left;
+  width: calc(20% - 1px);
+  border-right: 1px solid rgba(255, 0, 0, 0.4);
+  height: 32px;
+}
+
+.Slogan {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  line-height: 2;
+  font-size: 10px;
+  text-align: center;
+}

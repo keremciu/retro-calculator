@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'digit';
+  src: url('digit.woff2') format('woff2'),
+       url('digit.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

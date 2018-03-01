@@ -1,0 +1,73 @@
+.Calculator {
+  position: relative;
+  background: #D0D1D7;
+  padding: 14px 6px;
+  width: 100%;
+  min-height: 400px;
+  border-top-left-radius: 20px 8px;
+  border-top-right-radius: 20px 8px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 
+    0 15px 30px -5px rgba(0, 0, 0, 0.5),
+    0 0px 1px 2px rgba(0, 0, 0, 0.25),
+    0 2px 3px 1px rgba(0, 0, 0, 0.5),
+    inset 0 2px 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 2px 5px 0 rgba(255, 255, 255, 0.25),
+    inset 0 2px 15px 0 rgba(255, 255, 255, 0.25),
+    inset 0 0px 40px 10px rgba(0, 0, 0, 0.35),
+    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.5),
+    inset 0 -15px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.Calculator .Screen {
+  background: #6E727B;
+  background: linear-gradient(
+      to bottom,#4f5053 50%,
+      #6E727B 100%);
+  border-radius: 6px 6px 12px 12px;
+  padding: 18px 14px;
+}
+
+.Calculator .Screen .in {  
+  position: relative;
+  overflow: hidden;
+  height: 94px;
+  padding: 16px 6px;
+  border-radius: 4px;
+  box-shadow:
+    0px 2px 3px 3px rgba(255, 255, 255, 0.3),
+    -1px -3px 1px 3px rgba(0, 0, 0, 0.55);
+  background: #D8E0E3;
+  background: linear-gradient(
+      to bottom,#c3ced0 30%,
+      #DBE2EA 100%);
+  text-align: right;
+}
+
+.displayValue {
+  font-family: 'digit';
+  font-size: 70px;
+}
+
+.memorySign {
+  position: absolute;
+  top: 24px;
+  left: 0px;
+  width: 24px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.Calculator .Pad {
+  position: relative;
+}
+
+.Calculator .Pad .modelText {
+  position: absolute;
+  font-size: 10px;
+  top: 2px;
+  left: 24px;
+}
