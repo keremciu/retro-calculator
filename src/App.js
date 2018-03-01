@@ -13,7 +13,7 @@ class App extends Component {
           <Calculator />
         </div>
         <div className="Footer-text">
-        Developed by <strong>Kerem Sevencan</strong> for Flixbus.
+        Developed by <strong>Kerem Sevencan</strong>.
         </div>
       </div>
     );

@@ -17,6 +17,10 @@ First of all, how I started this project? I did some research about Casio Calcul
 
 I found an old Casio calculator in the offfice of my current company. I got interaction(look & feel) ideas from it.
 
+![demo][demo-image]
+
+[demo-image]: https://images-na.ssl-images-amazon.com/images/I/71kcP55HoEL._SX522_.jpg
+
 ## Features
 
 ```Auto Power Off Feature```
