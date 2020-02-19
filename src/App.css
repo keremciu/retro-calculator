@@ -12,6 +12,18 @@
   color: white;
 }
 
+.App-header p {
+  color: gray;
+}
+
+p.App-lead {
+  border-top: 1px solid #151515;
+  padding-top: 24px;
+  color: dimgray;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 .App-title {
   font-weight: 100;
 }
