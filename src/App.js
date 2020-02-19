@@ -20,7 +20,14 @@ class App extends Component {
           <Calculator />
         </div>
         <div className="Footer-text">
-          Developed by <strong>Kerem Sevencan</strong>.
+          Developed by <strong>Kerem Sevencan</strong>. Source code{" "}
+          <a
+            href="https://github.com/keremciu/retro-calculator"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub repository
+          </a>
         </div>
       </div>
     );

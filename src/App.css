@@ -39,3 +39,7 @@ p.App-lead {
   font-size: 80%;
   margin-top: 30px;
 }
+
+.Footer-text a {
+  color: gray;
+}
