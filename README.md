@@ -21,19 +21,23 @@ I found an old Casio calculator in the offfice of my current company. I got inte
 
 [demo-image]: https://images-na.ssl-images-amazon.com/images/I/71kcP55HoEL._SX522_.jpg
 
+## Implementation
+
+[![demo interface](/screenshot.jpg "how it looks")](https://keremciu.github.io/retro-calculator/)
+
 ## Features
 
-```Auto Power Off Feature```
+`Auto Power Off Feature`
 
 http://docs-europe.electrocomponents.com/webdocs/1398/0900766b81398fe8.pdf
 
 Calculator power turns off automatically if you do not perform any operation within 10 minutes.
 
-```Memory Functions```
+`Memory Functions`
 
 I wasn't sure about storing memory data to localStorage. It would be more problematic to replicate a real hardware.
 
-```Code Splitting```
+`Code Splitting`
 
 This calculator has some advanced functions that's why I spent most time on code-splitting.
 
@@ -45,6 +49,6 @@ I built processors for every key types. They looks like Redux -> Reducers.
 
 ## Future Ideas
 
-```Key Codes``` (would be better)
+`Key Codes` (would be better)
 
 You don't need to click the key. If you press the key on your keyboard, we're triggering that functionality with animation.
