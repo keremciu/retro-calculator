@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/retro-calculator/static/css/main.35f43bc2.chunk.css",
-    "main.js": "/retro-calculator/static/js/main.f80216ee.chunk.js",
-    "main.js.map": "/retro-calculator/static/js/main.f80216ee.chunk.js.map",
+    "main.css": "/retro-calculator/static/css/main.075475a2.chunk.css",
+    "main.js": "/retro-calculator/static/js/main.bf01f5ea.chunk.js",
+    "main.js.map": "/retro-calculator/static/js/main.bf01f5ea.chunk.js.map",
     "runtime-main.js": "/retro-calculator/static/js/runtime-main.567acea3.js",
     "runtime-main.js.map": "/retro-calculator/static/js/runtime-main.567acea3.js.map",
     "static/js/2.4af436b2.chunk.js": "/retro-calculator/static/js/2.4af436b2.chunk.js",
     "static/js/2.4af436b2.chunk.js.map": "/retro-calculator/static/js/2.4af436b2.chunk.js.map",
     "index.html": "/retro-calculator/index.html",
-    "precache-manifest.85a03253194afc5867f8043779ea2536.js": "/retro-calculator/precache-manifest.85a03253194afc5867f8043779ea2536.js",
+    "precache-manifest.21c52a82bcda82185cc734620012d4c0.js": "/retro-calculator/precache-manifest.21c52a82bcda82185cc734620012d4c0.js",
     "service-worker.js": "/retro-calculator/service-worker.js",
-    "static/css/main.35f43bc2.chunk.css.map": "/retro-calculator/static/css/main.35f43bc2.chunk.css.map",
+    "static/css/main.075475a2.chunk.css.map": "/retro-calculator/static/css/main.075475a2.chunk.css.map",
     "static/js/2.4af436b2.chunk.js.LICENSE.txt": "/retro-calculator/static/js/2.4af436b2.chunk.js.LICENSE.txt",
     "static/media/casio_logo.svg": "/retro-calculator/static/media/casio_logo.fe831f67.svg",
     "static/media/index.css": "/retro-calculator/static/media/digit.e71bc003.woff2"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.567acea3.js",
     "static/js/2.4af436b2.chunk.js",
-    "static/css/main.35f43bc2.chunk.css",
-    "static/js/main.f80216ee.chunk.js"
+    "static/css/main.075475a2.chunk.css",
+    "static/js/main.bf01f5ea.chunk.js"
   ]
 }

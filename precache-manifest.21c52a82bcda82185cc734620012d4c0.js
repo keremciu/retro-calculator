@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4593a6f5a9578c1e8e556b7325ef856a",
+    "revision": "c8eca00c368f0039a5420a8bb99d3105",
     "url": "/retro-calculator/index.html"
   },
   {
-    "revision": "9e336422ed2633a0b153",
-    "url": "/retro-calculator/static/css/main.35f43bc2.chunk.css"
+    "revision": "8990a5f8acdac9d0b689",
+    "url": "/retro-calculator/static/css/main.075475a2.chunk.css"
   },
   {
     "revision": "a264ab5344c2d137d0f3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/retro-calculator/static/js/2.4af436b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e336422ed2633a0b153",
-    "url": "/retro-calculator/static/js/main.f80216ee.chunk.js"
+    "revision": "8990a5f8acdac9d0b689",
+    "url": "/retro-calculator/static/js/main.bf01f5ea.chunk.js"
   },
   {
     "revision": "3929c638e72bd19daf8a",
