@@ -1,12 +1,16 @@
 import React, { PureComponent } from "react";
-import { keyTypes } from "Calculator/logic/constants";
+
+import keyTypes from "Calculator/logic/config";
 import keys from "./keys";
 import layout from "./layout";
 import "./styles.css";
 
 class KeyLayout extends PureComponent {
   renderKey = (key, cellIndex) => (
-    <div className={`cell ${key.extraClass}`} key={cellIndex}>
+    <div
+      className={`cell ${key.extraClass} ${key.type + key.value}`}
+      key={cellIndex}
+    >
       {key.label && (
         <button onClick={() => key.onChange(key)} children={key.label} />
       )}
@@ -16,7 +20,7 @@ class KeyLayout extends PureComponent {
   renderCell = (cell, cellIndex) => {
     let key = {
       extraClass: "",
-      onChange: this.props.onChange
+      onChange: this.props.onChange,
     };
 
     if (typeof cell === "number" || cell === "") {
@@ -26,7 +30,7 @@ class KeyLayout extends PureComponent {
     } else {
       const [type, value] = cell.split(".");
       const foundKey = keys.find(
-        key => key.type === type && key.value === value
+        (key) => key.type === type && key.value === value
       );
       key.type = type;
       key.value = foundKey.value;

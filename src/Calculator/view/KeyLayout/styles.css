@@ -5,6 +5,8 @@
 .KeyLayout .KeyRow {
   width: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .KeyLayout .KeyRow .cell {
@@ -14,14 +16,33 @@
   padding: 6px 4px;
 }
 
+.KeyLayout .KeyRow .cell.BASIC_FUNCdivide button,
+.KeyLayout .KeyRow .cell.BASIC_FUNCplus button {
+  font-size: 28px;
+}
+
+.KeyLayout .KeyRow .cell.NUMBER_FUNC0 button,
+.KeyLayout .KeyRow .cell.NUMBER_FUNC1 button,
+.KeyLayout .KeyRow .cell.NUMBER_FUNC2 button,
+.KeyLayout .KeyRow .cell.NUMBER_FUNC3 button,
+.KeyLayout .KeyRow .cell.NUMBER_FUNC4 button,
+.KeyLayout .KeyRow .cell.NUMBER_FUNC5 button,
+.KeyLayout .KeyRow .cell.NUMBER_FUNC6 button,
+.KeyLayout .KeyRow .cell.NUMBER_FUNC7 button,
+.KeyLayout .KeyRow .cell.NUMBER_FUNC8 button,
+.KeyLayout .KeyRow .cell.NUMBER_FUNC9 button,
+.KeyLayout .KeyRow .cell.MATH_FUNCfloat button {
+  font-size: 24px;
+}
+
 button {
   position: relative;
   z-index: 5;
   display: block;
   width: 100%;
   height: 40px;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 20px;
   color: white;
   background: #383840;
   background: linear-gradient(to bottom, #505050 30%, #303030 100%);
@@ -68,6 +89,7 @@ button:active {
 }
 
 .-red button {
+  font-size: 22px;
   background: #975265;
   background: linear-gradient(to bottom, #975265 50%, #843a4f 100%);
 }
@@ -122,6 +144,7 @@ button:active {
 
 .-small button {
   height: 30px;
+  font-size: 18px;
 }
 
 .-large button {

@@ -1,6 +1,6 @@
-import { calculate } from './basic';
+import { calculate } from "./basic";
 
-export default function(state, key) {
+function memory(state, key) {
   const entryKey = state.nextEntry !== null ? "nextEntry" : "currentEntry";
   switch (key.value) {
     case "clear":
@@ -25,11 +25,13 @@ export default function(state, key) {
         memory: calculate({
           operation: key.value,
           currentEntry: state.memory || 0,
-          nextEntry: state[entryKey]
-        })
+          nextEntry: state[entryKey],
+        }),
       };
 
     default:
       return state;
   }
 }
+
+export default memory;

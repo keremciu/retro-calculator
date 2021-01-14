@@ -1,6 +1,6 @@
-import { keyTypes } from "Calculator/logic/constants";
-const { MAIN, BASIC, MEMORY, MATH } = keyTypes;
+import keyTypes from "Calculator/logic/config";
 
+const { MAIN, BASIC, MEMORY, MATH } = keyTypes;
 const EMPTY = "";
 const MAIN_ON = `${MAIN}.on`;
 const MAIN_OFF = `${MAIN}.off`;
@@ -34,11 +34,13 @@ const MATH_CHANGESIGN = `${MATH}.change_sign`;
  * |  AC  |   0  |   .  |   =  |      |
  * '----------------------------------'
  */
-export default [
+const layout = [
   [EMPTY, EMPTY, EMPTY, MATH_SQRT, MAIN_OFF],
   [MEMORY_CLEAR, MEMORY_RECALL, MEMORY_MINUS, MEMORY_PLUS, BASIC_DIVIDE],
   [BASIC_PERCENTAGE, 7, 8, 9, BASIC_MULTIPLY],
   [MATH_CHANGESIGN, 4, 5, 6, BASIC_MINUS],
   [MAIN_CLEAR, 1, 2, 3, BASIC_PLUS],
-  [MAIN_ON, 0, MATH_FLOAT, BASIC_PERFORM]
+  [MAIN_ON, 0, MATH_FLOAT, BASIC_PERFORM],
 ];
+
+export default layout;

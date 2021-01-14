@@ -1,90 +1,93 @@
-import { keyTypes } from 'Calculator/logic/constants';
+import keyTypes from "Calculator/logic/config";
+
 const { MAIN, BASIC, MEMORY, MATH } = keyTypes;
 
-export default [
+const keys = [
   {
     type: MAIN,
     value: "off",
-    label: "Off",
-    extraClass: "-small"
+    label: "OFF",
+    extraClass: "-small",
   },
   {
     type: MAIN,
     value: "clear",
     label: "C",
-    extraClass: "-red"
+    extraClass: "-red",
   },
   {
     type: MAIN,
     value: "on",
     label: "AC",
-    extraClass: "-red --acbutton"
+    extraClass: "-red --acbutton",
   },
   {
     type: BASIC,
     value: "perform",
-    label: "="
+    label: "=",
   },
   {
     type: BASIC,
     value: "divide",
-    label: "÷"
+    label: "÷",
   },
   {
     type: BASIC,
     value: "percentage",
-    label: "%"
+    label: "%",
   },
   {
     type: BASIC,
     value: "multiply",
-    label: "X"
+    label: "✕",
   },
   {
     type: BASIC,
     value: "minus",
-    label: "-"
+    label: "−",
   },
   {
     type: BASIC,
     value: "plus",
     label: "+",
-    extraClass: "-large"
+    extraClass: "-large",
   },
   {
     type: MEMORY,
     value: "clear",
-    label: "MC"
+    label: "MC",
   },
   {
     type: MEMORY,
     value: "recall",
-    label: "MR"
+    label: "MR",
   },
   {
     type: MEMORY,
     value: "minus",
-    label: "M-"
+    label: "M-",
   },
   {
     type: MEMORY,
     value: "plus",
-    label: "M+"
+    label: "M+",
   },
   {
     type: MATH,
     value: "float",
-    label: "."
+    label: "⋅",
   },
   {
     type: MATH,
     value: "change_sign",
-    label: "+/-"
+    label: "+/-",
   },
   {
     type: MATH,
     value: "sqrt",
     label: "√",
-    extraClass: "-small"
-  }
+    extraClass: "-small",
+  },
 ];
+
+export default keys;

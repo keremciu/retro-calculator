@@ -25,7 +25,7 @@ p.App-lead {
 }
 
 .App-title {
-  font-weight: 100;
+  font-weight: 500;
 }
 
 .App-intro {
@@ -42,4 +42,16 @@ p.App-lead {
 
 .Footer-text a {
   color: gray;
+}
+
+.Footer-text a:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.original-photo {
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  margin-left: 200px;
 }

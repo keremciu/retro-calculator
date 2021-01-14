@@ -1,4 +1,4 @@
-export default function(state, key) {
+function basic(state, key) {
   const { currentEntry, nextEntry } = state;
   const { value } = key;
 
@@ -11,7 +11,7 @@ export default function(state, key) {
     if (state.lastAction === "perform") {
       calculateState = {
         ...state,
-        ...state.lastCalculation
+        ...state.lastCalculation,
       };
     }
     const calculatedValue = calculate(calculateState);
@@ -24,24 +24,24 @@ export default function(state, key) {
       lastAction: "perform",
       lastCalculation: {
         operation: calculateState.operation,
-        nextEntry: calculateState.nextEntry
-      }
+        nextEntry: calculateState.nextEntry,
+      },
     };
   }
 
   if (nextEntry === null) {
     return {
       ...state,
-      operation: value
+      operation: value,
     };
   }
 
   let calculatedValue;
 
-  if (key.value === 'percentage') {
+  if (key.value === "percentage") {
     calculatedValue = calculate({
       ...state,
-      operation: key.value
+      operation: key.value,
     });
   } else {
     calculatedValue = calculate(state);
@@ -72,9 +72,11 @@ export function calculate(state) {
       return Number(currentEntry) / Number(nextEntry);
 
     case "percentage":
-      return Number(currentEntry) / 100 * Number(nextEntry);
+      return (Number(currentEntry) / 100) * Number(nextEntry);
 
     default:
       return 0;
   }
 }
+
+export default basic;

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Calculator from "./Calculator";
 import "./App.css";
 
+import photo from "./photo.png";
+
 class App extends Component {
   render() {
     return (
@@ -18,6 +20,10 @@ class App extends Component {
         </header>
         <div className="App-intro">
           <Calculator />
+          <div className="original-photo">
+            <p className="App-lead">Original photo for comparison</p>
+            <img src={photo} alt="Original Casio SL-300SV" width="50%" />
+          </div>
         </div>
         <div className="Footer-text">
           Developed by <strong>Kerem Sevencan</strong>. Source code{" "}

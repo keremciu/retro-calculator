@@ -1,4 +1,4 @@
-export default function(state, key) {
+function number(state, key) {
   const { currentEntry, operation } = state;
   const isPending = currentEntry !== null && operation !== null;
   const entryKey = isPending ? "nextEntry" : "currentEntry";
@@ -19,6 +19,7 @@ export default function(state, key) {
     ...state,
     float: false,
     lastCalculation: {},
-    [entryKey]: newValue
+    [entryKey]: newValue,
   };
 }
+export default number;
