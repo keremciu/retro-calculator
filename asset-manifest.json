@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/retro-calculator/static/css/main.075475a2.chunk.css",
-    "main.js": "/retro-calculator/static/js/main.bf01f5ea.chunk.js",
-    "main.js.map": "/retro-calculator/static/js/main.bf01f5ea.chunk.js.map",
-    "runtime-main.js": "/retro-calculator/static/js/runtime-main.567acea3.js",
-    "runtime-main.js.map": "/retro-calculator/static/js/runtime-main.567acea3.js.map",
-    "static/js/2.4af436b2.chunk.js": "/retro-calculator/static/js/2.4af436b2.chunk.js",
-    "static/js/2.4af436b2.chunk.js.map": "/retro-calculator/static/js/2.4af436b2.chunk.js.map",
+    "main.css": "/retro-calculator/static/css/main.a8105616.chunk.css",
+    "main.js": "/retro-calculator/static/js/main.b1f83ae0.chunk.js",
+    "main.js.map": "/retro-calculator/static/js/main.b1f83ae0.chunk.js.map",
+    "runtime-main.js": "/retro-calculator/static/js/runtime-main.018066ae.js",
+    "runtime-main.js.map": "/retro-calculator/static/js/runtime-main.018066ae.js.map",
+    "static/js/2.c964e404.chunk.js": "/retro-calculator/static/js/2.c964e404.chunk.js",
+    "static/js/2.c964e404.chunk.js.map": "/retro-calculator/static/js/2.c964e404.chunk.js.map",
     "index.html": "/retro-calculator/index.html",
-    "precache-manifest.21c52a82bcda82185cc734620012d4c0.js": "/retro-calculator/precache-manifest.21c52a82bcda82185cc734620012d4c0.js",
-    "service-worker.js": "/retro-calculator/service-worker.js",
-    "static/css/main.075475a2.chunk.css.map": "/retro-calculator/static/css/main.075475a2.chunk.css.map",
-    "static/js/2.4af436b2.chunk.js.LICENSE.txt": "/retro-calculator/static/js/2.4af436b2.chunk.js.LICENSE.txt",
-    "static/media/casio_logo.svg": "/retro-calculator/static/media/casio_logo.fe831f67.svg",
-    "static/media/index.css": "/retro-calculator/static/media/digit.e71bc003.woff2"
+    "static/css/main.a8105616.chunk.css.map": "/retro-calculator/static/css/main.a8105616.chunk.css.map",
+    "static/js/2.c964e404.chunk.js.LICENSE.txt": "/retro-calculator/static/js/2.c964e404.chunk.js.LICENSE.txt",
+    "static/media/casio_logo.87b00f05.svg": "/retro-calculator/static/media/casio_logo.87b00f05.svg",
+    "static/media/index.css": "/retro-calculator/static/media/digit.df47d114.woff",
+    "static/media/photo.83f5bc36.png": "/retro-calculator/static/media/photo.83f5bc36.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.567acea3.js",
-    "static/js/2.4af436b2.chunk.js",
-    "static/css/main.075475a2.chunk.css",
-    "static/js/main.bf01f5ea.chunk.js"
+    "static/js/runtime-main.018066ae.js",
+    "static/js/2.c964e404.chunk.js",
+    "static/css/main.a8105616.chunk.css",
+    "static/js/main.b1f83ae0.chunk.js"
   ]
 }
