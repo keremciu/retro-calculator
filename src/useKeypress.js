@@ -7,6 +7,8 @@ import { useEffect } from "react";
 export default function useKeypress(key, action) {
   useEffect(() => {
     function onKeyup(e) {
+      e.preventDefault();
+      e.stopPropagation();
       if (e.keyCode === key) action();
     }
     window.addEventListener("keyup", onKeyup);

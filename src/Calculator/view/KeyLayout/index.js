@@ -20,7 +20,7 @@ const KeyLayout = ({ onChange }) => {
     onChange(keys[8]);
   });
 
-  useKeypress(107, () => {
+  useKeypress(189, () => {
     // minus runs minus
     onChange(keys[7]);
   });
