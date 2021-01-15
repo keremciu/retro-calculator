@@ -34,6 +34,16 @@ class App extends Component {
           >
             GitHub repository
           </a>
+          <div className="keyboxes">
+            <div className="keybox">
+              <div className="keycode">SPACEBAR</div>
+              <span className="hint">click to space to open</span>
+            </div>
+            <div className="keybox">
+              <div className="keycode">ENTER</div>
+              <span className="hint">click to enter to perform</span>
+            </div>
+          </div>
         </div>
       </div>
     );
